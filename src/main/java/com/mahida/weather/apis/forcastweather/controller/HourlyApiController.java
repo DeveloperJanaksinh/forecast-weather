@@ -1,4 +1,4 @@
-package com.mahida.weather.apis.forcastweather.junit.controller;
+package com.mahida.weather.apis.forcastweather.controller;
 
 import com.mahida.weather.apis.forcastweather.HourlyData;
 import com.mahida.weather.apis.forcastweather.HourlyResponse;

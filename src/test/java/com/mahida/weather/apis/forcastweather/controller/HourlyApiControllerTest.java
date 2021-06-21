@@ -1,4 +1,4 @@
-package com.mahida.weather.apis.forcastweather.junit.controller;
+package com.mahida.weather.apis.forcastweather.controller;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.http.HttpStatus;

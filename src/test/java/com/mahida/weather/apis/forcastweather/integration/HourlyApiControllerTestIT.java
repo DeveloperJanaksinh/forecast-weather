@@ -7,14 +7,17 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.http.ResponseEntity;
 
+import java.time.LocalDate;
+
 @SpringBootTest
 public class HourlyApiControllerTestIT {
 
     @Test
     public void getHourlyForcastTest() throws JSONException {
 
+        String date = LocalDate.now().toString();
         String expectedOutputStr = "{\n" +
-                "    \"date_time\": \"2021-06-20\",\n" +
+                "    \"date_time\": \""+date+"\",\n" +
                 "    \"unit\": \"Fahrenheit\",\n" +
                 "    \"details\": [\n" +
                 "        {\n" +
